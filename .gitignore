@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Dataset - GitHub'a yüklenmeyecek
+dataset/
+*.zip
+
+# Model dosyaları
+models/
+*.pt
+*.onnx
+*.engine
+
+# Sonuçlar
+runs/
+results/
+outputs/
+*.mp4
+*.avi
+
+# VS Code / sistem
+.vscode/
+.DS_Store
+Thumbs.db
