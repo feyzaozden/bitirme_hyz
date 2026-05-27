@@ -22,11 +22,11 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 DATASET_ROOT = Path(
-    r"C:\Users\fyzoz\OneDrive\Masaüstü\Bitirme_Projesi\dataset\teknofest\yolo\oturum_4"
+    r"C:\Users\fyzoz\OneDrive\Masaüstü\Bitirme_Projesi\dataset\teknofest\yolo\oturum_4_balanced"
 )
 
 OUTPUT_DIR = Path(
-    r"C:\Users\fyzoz\OneDrive\Masaüstü\Bitirme_Projesi\results\teknofest_label_check"
+    r"C:\Users\fyzoz\OneDrive\Masaüstü\Bitirme_Projesi\results\teknofest_label_check_balanced"
 )
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
